@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0808;
+}
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #f8f9fa; 
+    padding: 10px 20px; 
+}
+.navbar-brand {
+    font-weight: bold; 
+}
+
+.navbar-toggler {
+    border: none; 
+}
+
+.nav-link {
+    margin-top: auto;
+    padding: 5px 10px; 
+    text-decoration: none; 
+    color: #efe8e8; 
+}
+
+.nav-link:hover {
+    color: #bbd513; 
+}
+
+header {
+    background-color: #040509;
+    color: rgb(235, 216, 216);
+    padding: 1em 0;
+    text-align: center;
+
+}
+
+.name {
+    display:flex;
+    flex-flow: row;
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 1px 1px 1px rgba(232, 227, 234, 0.962);
+    transition: all 0.3s ease;
+    transform: scale(0.9);
+}
+.name:hover{
+    transform:scale(1);
+}
+
+#search {
+    padding: 5px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+    color: rgb(11, 15, 18);
+    background-color: beige;
+    border: 1px solid #d4c6c6;
+}
+
+main {
+    padding: 50px;
+}
+
+p {
+    color: aliceblue;
+}
+.movie-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: nowrap;
+    overflow-x: auto; 
+}
+.movie-details {
+    text-align: center; 
+    font-style: italic;
+}
+
+.movie-details img {
+    display: block; 
+    margin: 0 auto; 
+    size:0cqi;
+}
+.movie-details img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(198, 116, 213, 0.773);
+}
+
+.movie-item img{
+    width: 100%;
+    height: auto;
+    display:flex;
+    align-items: center;
+}
+.movie-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(244, 237, 237, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 200px; 
+    text-align: center;
+    overflow: hidden; 
+}
+
+.movie-item a {
+    color: #000002;
+    text-decoration: none;
+}
+
+.movie-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.movie-item h3 {
+    margin: 0;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.movie-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(198, 116, 213, 0.773);
+}
+
+footer {
+    background-color: #040509;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
